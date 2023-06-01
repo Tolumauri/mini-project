@@ -1,0 +1,1163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: black;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* banner starts here */
+
+.banner-container {
+  margin: 96px 0 96px 0;
+}
+
+.banner-text h6 {
+  color: #7f56d9;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.banner-text h1 {
+  font-weight: 600;
+  margin-top: 12px;
+  font-size: 48px;
+}
+
+.banner-text p {
+  color: #667085;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 24px;
+}
+
+.span2 {
+  color: #667085;
+}
+
+.span3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #667085;
+}
+
+.banner-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 40px 0 0 0;
+}
+
+.input {
+  width: 360px;
+  height: 76px;
+}
+
+.banner-input input {
+  border: 1px solid #d0d5dd;
+  border-radius: 5px;
+  background-color: white;
+  padding: 0 0 0 10px;
+  width: 360px;
+  height: 48px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.input p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+  margin: 8px 0 0 0;
+}
+
+.input a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+  text-decoration: underline;
+}
+
+.subscribe button {
+  color: white;
+  background-color: #7f56d9;
+  border: none;
+  border-radius: 5px;
+  width: 118px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 26px 0;
+}
+
+/* banner ends here */
+
+/* first section starts here */
+
+.card1-head {
+  margin: 0 0 32px 50px;
+}
+
+.card1-head h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 0 18px;
+}
+
+.card-all-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card-img {
+  width: 590px;
+  height: 228px;
+  background: url(./project-img/Image.jpg);
+  border-radius: 8px;
+  margin: 0 0 32px 0;
+}
+
+.card-first-txt {
+  width: 590px;
+  height: 172px;
+}
+
+.card-first-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+}
+
+i {
+  font-size: 20px;
+  margin: 15px 0 0 0;
+}
+
+.arrow {
+  display: flex;
+  gap: 280px;
+}
+
+.card-first-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 12px 0;
+}
+
+.card-first-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.card-first-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.btn1 {
+  color: #6941c6;
+  background-color: #f9f5ff;
+}
+
+.btn2 {
+  color: #3538cd;
+  background-color: #eef4ff;
+}
+
+.btn3 {
+  color: #c11574;
+  background-color: #fdf2fa;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card-second-container,
+.card-third-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card-second-img {
+  width: 320px;
+  height: 200px;
+  background: url(./project-img/buildingapi.jpg);
+  border-radius: 8px;
+}
+
+.card-second-txt {
+  width: 248px;
+  height: 188px;
+}
+
+.card-second-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+}
+
+.card-second-txt h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 8px 0;
+}
+
+.card-second-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.span5 {
+  display: none;
+}
+
+.card-second-button {
+  display: none;
+}
+
+.card-second-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.second-btn1,
+.second-btn2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.second-btn1 {
+  color: #026aa2;
+  background: #f0f9ff;
+}
+
+.second-btn2 {
+  color: #c11574;
+  background: #fdf2fa;
+}
+
+.card-third-img {
+  width: 320px;
+  height: 200px;
+  background: url(./project-img/migrating.jpg);
+  border-radius: 8px;
+}
+
+.card-third-txt {
+  width: 248px;
+  height: 188px;
+}
+
+.card-third-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+}
+
+.card-third-txt h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 8px 0;
+}
+
+.card-third-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.card-third-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.third-btn1,
+.third-btn2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.third-btn1 {
+  color: #027a48;
+  background: #ecfdf3;
+}
+
+.third-btn2 {
+  color: #c11574;
+  background: #fdf2fa;
+}
+
+/* first section ends here */
+
+/* second section starts here */
+
+.card2 {
+  margin: 106px 0 0 0;
+}
+
+.card2-head h3 {
+  font-weight: 600;
+  margin: 0 0 0 50px;
+  font-size: 24px;
+}
+
+.card2-all-container {
+  width: 1216px;
+  height: 968px;
+}
+
+.card2-all-padding {
+  margin: 32px 0 0 50px;
+}
+
+.card2-up-container {
+  width: 1216px;
+  height: 444px;
+  display: flex;
+  gap: 32px;
+}
+
+.card2-first {
+  width: 384px;
+  height: 444px;
+}
+
+.card2-first-img {
+  width: 384px;
+  height: 240px;
+  background: url(./project-img/bill-walsh.png);
+}
+
+.card2-first-txt {
+  width: 384px;
+  height: 172px;
+}
+
+.card2-first-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+  margin: 32px 0 0 0;
+}
+
+.card2-first-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 12px 0;
+}
+
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4,
+.arrow5,
+.arrow6 {
+  display: flex;
+}
+
+.arrow1 {
+  gap: 28px;
+}
+
+.arrow2 {
+  gap: 150px;
+}
+
+.arrow3 {
+  gap: 110px;
+}
+
+.arrow6 {
+  gap: 50px;
+}
+
+.card2-first-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.card2-first-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.card2-first-btn a {
+  text-decoration: none;
+}
+
+.card2-btn1,
+.card2-btn2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.card2-btn1 {
+  background: #f9f5ff;
+  color: #6941c6;
+}
+
+.card2-btn2 {
+  background: #f8f9fc;
+  color: #363f72;
+}
+
+.card2-second {
+  width: 384px;
+  height: 444px;
+}
+
+.card2-second-img {
+  width: 384px;
+  height: 240px;
+  background: url(./project-img/pm-mental.png);
+}
+
+.card2-second-txt {
+  width: 384px;
+  height: 172px;
+}
+
+.card2-second-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+  margin: 32px 0 0 0;
+}
+
+.card2-second-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 12px 0;
+}
+
+.card2-second-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+.card2-first-button,
+.card2-second-button {
+  display: none;
+}
+
+.card2-second-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.card2-second-btn a {
+  text-decoration: none;
+}
+
+.card2-second-btn1 {
+  background: #f0f9ff;
+  color: #026aa2;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.card2-second-btn2 {
+  background: #eef4ff;
+  color: #3538cd;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.card2-second-btn3 {
+  background: #fff6ed;
+  color: #c4320a;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.card2-third {
+  width: 384px;
+  height: 444px;
+}
+
+.card2-third-img {
+  width: 384px;
+  height: 240px;
+  background: url(./project-img/wireframing.png);
+}
+
+.card2-third-txt {
+  width: 380px;
+  height: 172px;
+}
+
+.card2-third-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+  margin: 32px 0 0 0;
+}
+
+.card2-third-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 12px 0;
+}
+
+.card2-third-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.card2-third-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.card2-third-btn a {
+  text-decoration: none;
+}
+
+.card2-third-btn1 {
+  background: #f9f5ff;
+  color: #6941c6;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.card2-third-btn2 {
+  background: #eef4ff;
+  color: #3538cd;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.card2-down-container {
+  width: 1216px;
+  height: 476px;
+  display: flex;
+  gap: 32px;
+  margin: 48px 0 0 0;
+}
+
+.card2-down1 {
+  width: 384px;
+  height: 476px;
+}
+
+.card2-down1-img {
+  width: 384px;
+  height: 240px;
+  background: url(./project-img/how-collab.png);
+}
+
+.card2-down1-txt {
+  width: 380px;
+  height: 172px;
+}
+
+.card2-down1-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+  margin: 32px 0 0 0;
+}
+
+.card2-down1-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 12px 0;
+}
+
+.card2-down1-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.card2-down1-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.card2-down1-btn a {
+  text-decoration: none;
+}
+
+.card2-down1-btn1 {
+  background: #f9f5ff;
+  color: #6941c6;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.card2-down1-btn2 {
+  background: #eef4ff;
+  color: #3538cd;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.card2-down2 {
+  width: 384px;
+  height: 476px;
+}
+
+.card2-down2-img {
+  width: 384px;
+  height: 240px;
+  background: url(./project-img/our-top.png);
+}
+
+.card2-down2-txt {
+  width: 384px;
+  height: 172px;
+}
+
+.card2-down2-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+  margin: 32px 0 0 0;
+}
+
+.card2-down2-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 12px 0;
+}
+
+.card2-down2-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.card2-down2-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.card2-down2-btn a {
+  text-decoration: none;
+}
+
+.card2-down2-btn1 {
+  background: #ecfdf3;
+  color: #027a48;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.card2-down2-btn2 {
+  background: #fdf2fa;
+  color: #c11574;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.card2-down2-btn3 {
+  background: #fff1f3;
+  color: #c01048;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.card2-down3 {
+  width: 384px;
+  height: 476px;
+}
+
+.card2-down3-img {
+  width: 384px;
+  height: 240px;
+  background: url(./project-img/podcast.png);
+}
+
+.card2-down3-txt {
+  width: 384px;
+  height: 172px;
+}
+
+.card2-down3-txt h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6941c6;
+  margin: 32px 0 0 0;
+}
+
+.card2-down3-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin: 12px 0 12px 0;
+}
+
+.card2-down3-txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0 0 24px 0;
+}
+
+.card2-down3-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.card2-down3-btn a {
+  text-decoration: none;
+}
+
+.card2-down3-btn1 {
+  background: #f9f5ff;
+  color: #6941c6;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.card2-down3-btn2 {
+  background: #f8f9fc;
+  color: #363f72;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+/* second section ends here */
+
+/* mobile screen starts here  */
+
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: black;
+    font-family: "Inter", sans-serif;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* mobile screen banner starts here  */
+
+  .banner-container {
+    margin: 64px 0 64px 0;
+  }
+
+  .banner-text h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #7f56d9;
+  }
+
+  .banner-text h1 {
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 12px;
+  }
+
+  .span1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #101828;
+  }
+
+  .banner-text p,
+  .span2,
+  .span3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #667085;
+    width: 343px;
+    font-size: 18px;
+  }
+
+  .banner-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-input input {
+    border: 1px solid #d0d5dd;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0 0 0 10px;
+    width: 331px;
+    height: 48px;
+    margin: 0 0 0 12px;
+  }
+
+  .input p {
+    margin: 0 0 0 13px;
+  }
+
+  .subscribe button {
+    width: 343px;
+    height: 50px;
+    padding: 0 10px;
+  }
+
+  .subscribe {
+    margin: 16px 0 0 0;
+  }
+
+  /* mobile screen banner ends here  */
+
+  /* mobile screen first section starts here  */
+
+  .card1-head {
+    margin: 0 0 32px 18px;
+  }
+
+  .card1-head h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .card-all-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .card-first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-img {
+    width: 343px;
+  }
+
+  .card-first-txt {
+    width: 343px;
+    height: 194px;
+  }
+
+  .card-first-txt h3 {
+    font-size: 20px;
+  }
+
+  .card-left {
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-second-container,
+  .card-third-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .card-second-img {
+    width: 343px;
+    background: url(./project-img/mobile-migrate.png);
+  }
+
+  .card-second-txt {
+    width: 325px;
+    height: 194px;
+  }
+
+  .card-second-txt h5 {
+    font-size: 20px;
+    margin: 12px 0 12px 0;
+  }
+  .card-second-btn {
+    display: none;
+  }
+
+  .card-second-button {
+    display: flex;
+    gap: 8px;
+  }
+
+  .second-button1,
+  .second-button2,
+  .second-button3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 16px;
+  }
+
+  .second-button1 {
+    color: #026aa2;
+    background: #f0f9ff;
+  }
+
+  .second-button2 {
+    color: #c11574;
+    background: #fdf2fa;
+  }
+
+  .second-button3 {
+    color: #c01048;
+    background: #fff1f3;
+  }
+
+  .span4 {
+    display: none;
+  }
+  .span5 {
+    display: contents;
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+  }
+
+  .card-third-img {
+    width: 343px;
+    background: url(./project-img/mobile-api.png);
+  }
+
+  .card-third-txt {
+    width: 320px;
+    height: 194px;
+  }
+
+  .card-third-txt h5 {
+    font-size: 20px;
+    margin: 12px 0 12px 0;
+  }
+  /* mobile screen first section ends here  */
+
+  /* mobile screen second section starts here  */
+
+  .card2 {
+  }
+
+  .card2-all-padding {
+    margin: 0;
+  }
+
+  .card2-head h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 64px 0 32px 18px;
+  }
+
+  .card2-all-container {
+    width: 343px;
+    height: 1350px;
+    margin: 0 0 0 18px;
+  }
+
+  .card2-down-container {
+    display: none;
+  }
+
+  .card2-up-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 343px;
+  }
+  .card2-first,
+  .card2-second,
+  .card2-third {
+    width: 343px;
+    height: 426px;
+  }
+
+  .card2-first-img {
+    width: 343px;
+    height: 200px;
+    background: url(./project-img/mobile-bill-walsh.png);
+  }
+
+  .card2-first-txt {
+    width: 320px;
+    height: 194px;
+  }
+
+  .card2-first-txt h3 {
+    font-size: 20px;
+    margin: 12px 0 12px 0;
+  }
+
+  .card2-second-img {
+    width: 343px;
+    height: 200px;
+    background: url(./project-img/mobile-pm-mental.png);
+  }
+
+  .card2-second-txt {
+    width: 320px;
+    height: 194px;
+  }
+
+  .card2-second-txt h3 {
+    font-size: 20px;
+    margin: 12px 0 12px 0;
+  }
+
+  .card2-third-img {
+    width: 343px;
+    height: 200px;
+    background: url(./project-img/mobile-wireframing.png);
+  }
+
+  .card2-third-txt {
+    width: 320px;
+    height: 194px;
+  }
+
+  .card2-third-txt h3 {
+    font-size: 20px;
+    margin: 12px 0 12px 0;
+  }
+
+  .card2-first-btn,
+  .card2-second-btn {
+    display: none;
+  }
+
+  .card2-first-button {
+    display: flex;
+    gap: 8px;
+  }
+
+  .card2-first-button a {
+    text-decoration: none;
+  }
+
+  .card2-button1,
+  .card2-button2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 16px;
+  }
+
+  .card2-button1 {
+    background: #f9f5ff;
+    color: #6941c6;
+  }
+
+  .card2-button2 {
+    background: #f8f9fc;
+    color: #363f72;
+  }
+
+  .card2-second-button {
+    display: flex;
+    gap: 8px;
+  }
+
+  .card2-second-button a {
+    text-decoration: none;
+  }
+
+  .button1,
+  .button2,
+  .button3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 16px;
+  }
+
+  .button1 {
+    background: #f0f9ff;
+    color: #026aa2;
+  }
+
+  .button2 {
+    background: #eef4ff;
+    color: #3538cd;
+  }
+
+  .button3 {
+    background: #fff6ed;
+    color: #c4320a;
+  }
+
+  /* mobile screen second section ends here  */
+
+  /* mobile screen ends here  */
+}

@@ -17,6 +17,10 @@ body {
 
 .banner-container {
   margin: 96px 0 96px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .banner-text h6 {

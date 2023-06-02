@@ -115,20 +115,22 @@ input::placeholder {
 /* first section starts here */
 
 .card1-head {
-  margin: 0 0 32px 50px;
+  margin: 0 0 32px 0;
 }
 
 .card1-head h3 {
   font-size: 24px;
   font-weight: 600;
-  margin: 0 0 0 18px;
+  margin: 0 0 0 50px;
 }
+
 
 .card-all-container {
   display: flex;
-  justify-content: center;
   gap: 32px;
+  margin: 0 0 0 50px;
 }
+
 
 .card-img {
   width: 590px;
@@ -157,6 +159,11 @@ i {
 .arrow {
   display: flex;
   gap: 280px;
+}
+
+.arrow7 i,
+.arrow8 i {
+  display: none;
 }
 
 .card-first-txt h3 {
@@ -349,10 +356,11 @@ i {
 .card2-all-container {
   width: 1216px;
   height: 968px;
+  margin: 32px 0 0 50px;
 }
 
 .card2-all-padding {
-  margin: 32px 0 0 50px;
+  
 }
 
 .card2-up-container {
@@ -876,10 +884,6 @@ i {
     padding: 0 10px;
   }
 
-  .subscribe {
-    margin: 16px 0 0 0;
-  }
-
   /* mobile screen banner ends here  */
 
   /* mobile screen first section starts here  */
@@ -898,6 +902,7 @@ i {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    margin: 0;
   }
 
   .card-first-container {
@@ -918,6 +923,23 @@ i {
 
   .card-first-txt h3 {
     font-size: 20px;
+  }
+
+  .arrow {
+    gap: 80px;
+  }
+
+  .arrow7,
+  .arrow8 {
+    display: flex;
+    gap: 80px;
+  }
+
+  .arrow7 i,
+  .arrow8 i {
+    display: contents;
+    margin: 15px 0 0 0;
+
   }
 
   .card-left {
@@ -1156,6 +1178,18 @@ i {
     background: #fff6ed;
     color: #c4320a;
   }
+
+  .arrow1 {
+    gap: 28px;
+  }
+
+  .arrow2 {
+    gap: 130px;
+  }
+
+.arrow3 {
+  gap: 95px;
+}
 
   /* mobile screen second section ends here  */
 
